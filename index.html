@@ -43,16 +43,10 @@ layout: default
 		</header>
 		<div class="container">
 			<div class="row">
-				<div class="6u">
-					<section class="special">
-				      <ul class="project-list">
-				        {% for project in site.categories['project'] reversed | limit:2 %}
-				          {% include project.html %}
-				        {% endfor %}
-				      </ul>
-					</section>
-				</div>
-			</div>
+		        {% for project in site.categories['project'] reversed | limit:2 %}
+		          {% include project.html %}
+		        {% endfor %}
+		    </div>
 		</div>
 	</section>
 
