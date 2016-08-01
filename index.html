@@ -39,12 +39,14 @@ layout: default
 	<section id="two" class="wrapper style2">
 		<header class="major">
 			<h2>projects</h2>
-			<p>A couple from our portfolio</p>
+			<p>A sample from our portfolio</p>
 		</header>
 		<div class="container">
 			<div class="row">
-		        {% for project in site.categories['project'] reversed | limit:2 %}
-		          {% include project.html %}
+		        {% for project in site.categories['project'] reversed %}
+		          {% if project.featured == true %}
+				    {% include project.html %}
+				  {% endif %}
 		        {% endfor %}
 		    </div>
 		</div>
@@ -56,27 +58,23 @@ layout: default
 			<div class="row">
 				<div class="8u">
 					<section>
-						<h2>Mollis ut adipiscing</h2>
-						<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-						<p>Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan commodo odio cubilia ac eu interdum placerat placerat arcu commodo lobortis adipiscing semper ornare pellentesque.</p>
+						<p>Tom Kraft Design creates and maintains websites using open source platforms. Specifically the content management systems <a href="https://wordpress.org/">WordPress</a> and <a href="https://www.drupal.org/">Drupal</a>. Because I use open source applications, when you have a site built or rebuilt by me you are the owner of all aspects of your site, unlike many designer and developers that use proprietary or home grown applications that offer little configurability with restrictive license schemes. This offers my clients flexibility and expandability with their sites. Though anyone can download and install these open source applications, I have the experience needed to develop a site to customer specifications and teach them how to manage it. Using the latest technologies and building with current web standards I am able to create some attractive, clean, accessible sites.</p><p>If you are interested in an affordable, attractive web presence, allow me to give you some ideas and a quote. If you are unhappy with your existing site, maybe I could make you happy with a rebuild.</p><p>Take a few minutes to review my <a href="/projects">projects</a> and the <a href="/what-i-do">services</a> I provide to see if Tom Kraft Design would be the solution for you. If you want to know a little bit more about me, take a look at my <a href="/about-me">web development history</a>.</p>
 					</section>
 				</div>
 				<div class="4u">
 					<section>
-						<h3>Magna massa blandit</h3>
-						<p>Feugiat amet accumsan ante aliquet feugiat accumsan. Ante blandit accumsan eu amet tortor non lorem felis semper. Interdum adipiscing orci feugiat penatibus adipiscing col cubilia lorem ipsum dolor sit amet feugiat consequat.</p>
-						<ul class="actions">
-							<li><a href="#" class="button alt">Learn More</a></li>
-						</ul>
+						<h3>Platforms and Technologies</h3>
 					</section>
-					<hr />
 					<section>
-						<h3>Ante sed commodo</h3>
-						<ul class="alt">
-							<li><a href="#">Erat blandit risus vis adipiscing</a></li>
-							<li><a href="#">Tempus ultricies faucibus amet</a></li>
-							<li><a href="#">Arcu commodo non adipiscing quis</a></li>
-							<li><a href="#">Accumsan vis lacinia semper</a></li>
+						<ul>
+							<li><a href="https://www.drupal.org/">Drupal</a></li>
+							<li><a href="https://wordpress.org/">WordPress</a></li>
+							<li><a href="https://jekyllrb.com/">Jekyll</a></li>
+							<li><a href="https://www.w3.org/html/">HTML</a></li>
+							<li><a href="https://www.w3.org/Style/CSS/">CSS</a></li>
+							<li><a href="http://sass-lang.com/">Sass</a></li>
+							<li><a href="http://php.net/">PHP</a></li>
+							<li><a href="https://www.mysql.com/">MySQL</a></li>
 						</ul>
 					</section>
 				</div>

@@ -3,12 +3,9 @@ layout: post
 title:  "Poma hinc faticano erat"
 date:   2016-07-15 19:57:59 -0500
 categories: project
-featured: true
+featured: false
 featured_image: "/images/woods.jpg"
 ---
-
-## In sitim quamvis illos cum herbosas inertes
-
 Lorem markdownum, si illum comesque, gelidumque, Tyrrhenia quondam verba
 profatur? Inhonorati deus confundere cane! Oraque sibi, curaliis caeli.
 Membraque taurum Cinyra, pollutosque **spatio praeterque Melampus** deplanxere

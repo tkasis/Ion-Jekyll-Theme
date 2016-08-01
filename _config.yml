@@ -4,7 +4,7 @@ email: tom@tomkraftdesign.com
 description: > # this means to ignore newlines until "baseurl:"
   Tom Kraft Design creates and maintains websites using open source platforms. Specifically the content management systems WordPress and Drupal.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://tkddemo1.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
@@ -13,7 +13,7 @@ links:
     url: /services
   - title: projects
     url: /projects
-  - title: contact me
+  - title: contact
     url: /contact
 
 # Build settings
