@@ -13,4 +13,4 @@ JobsToday Southeast Texas is a job listing board site. The client, The Examiner 
 * Notable modules: CCK, Views, Ad
 * FlowPlayer was used to play the video locally
 
-[JobsToday Website](http://jobstodayset.com/)
+[JobsToday lists jobs in Southeast Texas](http://jobstodayset.com/)

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: about me
+title: About Me
 permalink: /about-me/
 ---
 ### This is a web story of mine
