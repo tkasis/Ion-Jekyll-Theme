@@ -4,7 +4,7 @@ email: tom@tomkraftdesign.com
 description: > # this means to ignore newlines until "baseurl:"
   Tom Kraft Design creates and maintains websites using open source platforms. Specifically the content management systems WordPress and Drupal.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://tomkraftdesign.com/" # the base hostname & protocol for your site
+url: "https://tomkraftdesign.com/" # the base hostname & protocol for your site
 
 
 
