@@ -4,7 +4,8 @@ title:  "Beaumont Business Journal"
 date:   2012-11-24 19:57:59 -0500
 categories: project
 featured: true
-featured_image: "/images/beaumontbusinessjournal.jpg" 
+featured_image: "/images/beaumontbusinessjournal.jpg"
+site_url: http://beaumontbusinessjournal.com/
 ---
 Beaumont Business Journal is a news site owned by The Examiner Corporation. They wanted a simple news site for local business articles and to provide advertising for thier clients.
 
@@ -12,4 +13,4 @@ Beaumont Business Journal is a news site owned by The Examiner Corporation. They
 * iPress news/magazine premium theme
 * Notable modules: Views and SimpleAds
 
-[Business news in Southeast Texas](http://beaumontbusinessjournal.com/)
+[Business news in Southeast Texas]({{ page.site_url }})

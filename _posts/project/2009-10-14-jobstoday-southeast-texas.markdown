@@ -4,7 +4,8 @@ title:  "JobsToday Southeast Texas"
 date:   2009-10-14 19:57:59 -0500
 categories: project
 featured: false
-featured_image: "/images/jobstoday.jpg" 
+featured_image: "/images/jobstoday.jpg"
+site_url: http://jobstodayset.com/
 ---
 JobsToday Southeast Texas is a job listing board site. The client, The Examiner Corporation, is located in Beaumont Texas. They needed a way to dynamically list all of their job listings and provide advertising for thier clients. Used Drupal 6 and it was the first time we created a custom theme using Drupal. Nice little greenscreen video diplayed using jQuery.
 
@@ -13,4 +14,4 @@ JobsToday Southeast Texas is a job listing board site. The client, The Examiner 
 * Notable modules: CCK, Views, Ad
 * FlowPlayer was used to play the video locally
 
-[JobsToday lists jobs in Southeast Texas](http://jobstodayset.com/)
+[JobsToday lists jobs in Southeast Texas]({{ page.site_url }})

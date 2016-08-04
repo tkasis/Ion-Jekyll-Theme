@@ -8,9 +8,25 @@ layout: default
                 <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
         </header>
 
-        <section class="post-content">
-            {{ content }}
-        </section>
+<!-- Post -->
+    <section id="three" class="wrapper style1">
+        <div class="container">
+            <div class="row">
+                <div class="9u">
+                    <section>
+                        {{ content }}
+                    </section>
+                </div>
+                <div class="3u">
+                    <section class="project-image">
+                        <a href="{{ page.site_url }}" title="Visit {{ page.title }}">
+                            <img src="{{ page.featured_image }}" alt="Thumbnail for {{ page.title }}">
+                        </a>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </section>          
         
         <footer>
             {% if page.previous %}
