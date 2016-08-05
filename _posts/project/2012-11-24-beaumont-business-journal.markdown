@@ -3,7 +3,7 @@ layout: post
 title:  "Beaumont Business Journal"
 date:   2012-11-24 19:57:59 -0500
 categories: project
-featured: true
+featured: false
 featured_image: "/images/beaumontbusinessjournal.jpg"
 site_url: http://beaumontbusinessjournal.com/
 ---
