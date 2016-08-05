@@ -3,7 +3,7 @@ layout: post
 title:  "The Examiner"
 date:   2010-04-26 19:57:59 -0500
 categories: project
-featured: false
+featured: true
 featured_image: "/images/theexaminer.jpg"
 site_url: http://theexaminer.com/
 ---

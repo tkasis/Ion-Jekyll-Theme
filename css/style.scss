@@ -919,6 +919,7 @@ $fixed-font-family: "Courier New", Courier, monospace;
 			font-family: $decorative-font-family;
 			color: #666f77;
 			font-weight: 500;
+			text-transform: none;
 			height: inherit;
 			left: 1.25em;
 			line-height: inherit;
@@ -929,7 +930,7 @@ $fixed-font-family: "Courier New", Courier, monospace;
 		}
 
 			#header h1 a {
-				font-size: 1.25em;
+				font-size: 2em;
 			}
 
 		#header nav {

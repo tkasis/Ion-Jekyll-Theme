@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Charles Thibodeaux and the Austin Cajun Aces"
+title:  "Charles Thibodeaux & the Austin Cajun Aces"
 date:   2007-11-28 19:57:59 -0500
 categories: project
-featured: true
+featured: false
 featured_image: "/images/austincajunaces.jpg"
 site_url: http://austincajunaces.com/
 ---

@@ -3,7 +3,7 @@ layout: post
 title:  "Corpus Christi International Seamen's Center"
 date:   2009-05-31 19:57:59 -0500
 categories: project
-featured: false
+featured: true
 featured_image: "/images/corpuschristiseamenscenter.jpg"
 site_url: https://corpuschristiseamenscenter.com
 ---
