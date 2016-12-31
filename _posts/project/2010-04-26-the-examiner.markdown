@@ -13,4 +13,4 @@ The Examiner is a weekly newspaper out of Beaumont Texas. It is owned by The Exa
 * City Magazine news/magazine premium theme using Fusion base theme
 * Notable modules: Views, Taxonomy, Ubercart for subscriptions, Advertisement
 
-[That scrappy little paper from Southeast Texas]({{ page.site_url }})
+[Local news weekly in Southeast Texas]({{ page.site_url }})
